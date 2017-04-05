@@ -1,0 +1,7 @@
+host = raw_input('Insira o hostname: ')
+User = raw_input('Insira o usuario: ')
+senha = raw_input ('Insira a senha: ')
+
+print 'Acessando host %s:%s %s' % (user, host, senha)
+
+print string[3]

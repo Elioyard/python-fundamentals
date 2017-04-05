@@ -1,0 +1,18 @@
+animais = ['gato', 'cachorro', 'passarinho']
+animais.append('boi')
+print animais
+
+animais.insert (1, 'tigre')
+print animais
+animais.remove('gato')
+animais.pop()
+print animais
+print animais.count('tigre')
+print animais
+print len(animais)
+print animais.index('tigre')
+animais.reverse()
+print animais
+
+if 'tigre' in animais:
+	print 'Encontrei o tigre'
